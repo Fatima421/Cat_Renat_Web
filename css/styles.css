@@ -2222,3 +2222,9 @@ a:hover.back-to-top {
 	position: relative;
 	bottom: 60px;
 }
+
+.decription-image {
+	position: relative;
+	top: 200px;
+	right: 200px;
+}
