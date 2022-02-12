@@ -2202,3 +2202,23 @@ a:hover.back-to-top {
 	/* end of extra pages */
 }
 /* end of min-width 1200px */
+
+.padding-intro-icon-music {
+	position: relative;
+	top: 25px;
+}
+
+.padding-intro-icon-movie {
+	position: relative;
+	top: 31px;
+}
+
+.padding-intro-icon-game {
+	position: relative;
+	top: 27px;
+}
+
+.padding-intro-iphone {
+	position: relative;
+	bottom: 60px;
+}
