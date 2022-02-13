@@ -2064,7 +2064,6 @@ a:hover.back-to-top {
 
 	.basic-2 img {
 		width: 18.75rem;
-		height: 39.8125rem;
 	}
 	/* end of features */
 
@@ -2221,4 +2220,10 @@ a:hover.back-to-top {
 .padding-intro-iphone {
 	position: relative;
 	bottom: 60px;
+}
+
+.decription-image {
+	position: relative;
+	top: 200px;
+	right: 200px;
 }
