@@ -2228,3 +2228,8 @@ a:hover.back-to-top {
 	top: 200px;
 	right: 200px;
 }
+
+.counter-images-margin {
+	position: relative;
+	bottom: 15px;
+}
