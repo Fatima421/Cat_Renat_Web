@@ -2243,3 +2243,26 @@ a:hover.back-to-top {
 	position: relative;
 	padding-top: 7%;
 }
+
+.personalized-bg {
+	position: absolute;
+	pointer-events: none;
+	background: #fff;
+	animation: animate 5s linear infinite;
+}
+
+@keyframes animate {
+	0% {
+		transform: scale(0) translateY(0) rotate(0deg);
+	}
+	10% {
+		opacity: 1;
+	}
+	90% {
+		opacity: 1;
+	}
+	100% {
+		transform: scale(1) translateY(-500%) rotate(360deg);
+		opacity: 0;
+	}
+}
