@@ -2232,3 +2232,14 @@ a:hover.back-to-top {
 	position: relative;
 	bottom: 15px;
 }
+
+.download-image-set-up {
+	max-width: 80%;
+	position: relative;
+	bottom: 10%;
+}
+
+.download-text-set-up {
+	position: relative;
+	padding-top: 7%;
+}
