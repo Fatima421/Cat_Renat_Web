@@ -2162,15 +2162,15 @@ a:hover.back-to-top {
 	}
 	
 	.footer .footer-col.second {
-		width: 14rem;
+		width: 12rem;
 		margin-right: 2.25rem;
 	}
 
 
 	.footer .footer-col.third,
 	.footer .footer-col.fourth {
-		width: 8.5rem;
-		margin-right: 3.25rem;
+		width: 9.0rem;
+		margin-right: 2.25rem;
 	}
 
 	.footer .fa-stack:last-of-type {
@@ -2242,4 +2242,28 @@ a:hover.back-to-top {
 .download-text-set-up {
 	position: relative;
 	padding-top: 7%;
+}
+
+.footer-images-style {
+	position:relative;
+	margin-right: 4%;
+	margin-bottom: 2.5%;
+}
+
+.footer-circle-image-style {
+	position: relative;
+	margin-bottom: 7%;
+	margin-left: 28%;
+}
+
+.footer-circle-image-style-github {
+	position: relative;
+	margin-bottom: 7%;
+	margin-left: 19%;
+}
+
+.footer-circle-image-style-figma {
+	position: relative;
+	margin-bottom: 7%;
+	margin-left: 27%;
 }
