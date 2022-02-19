@@ -1471,6 +1471,12 @@ a:hover.back-to-top {
 	text-align: center;
 }
 
+.ex-header-about-us {
+	padding-top: 8rem;
+	padding-bottom: 5rem;
+	background-color: #f7fafd;
+}
+
 .ex-basic-1 {
 	padding-top: 2rem;
 	padding-bottom: 0.875rem;
@@ -1602,6 +1608,11 @@ a:hover.back-to-top {
 	.ex-header {
 		padding-top: 11rem;
 		padding-bottom: 9rem;
+	}
+
+	.ex-header-about-us {
+		padding-top: 8rem;
+		padding-bottom: 3rem;
 	}
 
 	.ex-basic-2 .text-container.dark {
@@ -2266,4 +2277,35 @@ a:hover.back-to-top {
 	position: relative;
 	margin-bottom: 7%;
 	margin-left: 27%;
+}
+
+.about-us-h1 {
+	position: relative;
+	margin-left: 34%;
+	margin-right: 34%;
+	color:white;
+	width: 45%;
+	-webkit-text-stroke: 0.1vw #50b9e8;
+	text-transform: uppercase;
+}
+
+.about-us-h1::before {
+	content: attr(data-text);
+	position:absolute;
+	width: 0%;
+	height: 100%;
+	color: #50b9e8;
+	-webkit-text-stroke: 0vw white;
+	border-right: 2px solid #50b9e8;
+	overflow: hidden;
+	animation: animate 6s linear infinite;
+}
+
+@keyframes animate {
+	0%, 10%, 100% {
+		width: 0;
+	}
+	70%, 90% {
+		width: 100%;
+	}
 }
