@@ -1261,6 +1261,10 @@ image-container
 	text-align: center;
 }
 
+.image-margin-counter {
+	margin-bottom: 6%;
+}
+
 .counter-customized {
 	background-color: #f7fafd;
 }
@@ -1312,7 +1316,6 @@ image-container
 	margin-bottom: 0;
 	vertical-align: middle;
 }
-
 
 /************************/
 /*     13. Download     */
