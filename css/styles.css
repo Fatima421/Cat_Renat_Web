@@ -1261,6 +1261,10 @@ image-container
 	text-align: center;
 }
 
+.counter-customized {
+	background-color: #f7fafd;
+}
+
 .counter #counter {
 	margin-bottom: 0.75rem;
 }
