@@ -2438,3 +2438,11 @@ a:hover.back-to-top {
 @media (max-width: 1024px) {
 
 }
+
+.about-us-laptop-image {
+	max-width: 100%;
+}
+
+.about-us-laptop-txt {
+	padding-right: 5%;
+}
