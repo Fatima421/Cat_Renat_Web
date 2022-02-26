@@ -1483,12 +1483,6 @@ a:hover.back-to-top {
 	text-align: center;
 }
 
-.ex-header-about-us {
-	padding-top: 8rem;
-	padding-bottom: 5rem;
-	background-color: #f7fafd;
-}
-
 .ex-basic-1 {
 	padding-top: 2rem;
 	padding-bottom: 0.875rem;
@@ -1619,11 +1613,6 @@ a:hover.back-to-top {
 	.ex-header {
 		padding-top: 11rem;
 		padding-bottom: 9rem;
-	}
-
-	.ex-header-about-us {
-		padding-top: 8rem;
-		padding-bottom: 3rem;
 	}
 
 	.ex-basic-2 .text-container.dark {
@@ -2545,4 +2534,46 @@ a:hover.back-to-top {
 .personalized-timeline-div h4 {
 	margin-left: 1rem;
 	margin-top: 1.5%;
+}
+
+.hidden {
+  opacity:0;
+}
+.console-container {
+ 
+  font-family:"Open Sans", sans-serif;
+  font-size:4em;
+  font-weight: 600;
+  text-align:center;
+  height:0px;
+  width:700px;
+  display:block;
+  position:relative;
+  color:#50b9e8;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  margin:auto;
+}
+.console-underscore {
+   display:inline-block;
+  position:relative;
+  top:-0.14em;
+  left:10px;
+}
+
+@media (max-width: 480px) {
+	.console-container {
+		width:300px;
+		font-size:2em;
+	}
+
+}
+
+@media (max-width: 768px) {
+	.console-container {
+		width:300px;
+		font-size:2em;
+	}
 }
