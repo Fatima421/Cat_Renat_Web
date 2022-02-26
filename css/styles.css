@@ -1483,12 +1483,6 @@ a:hover.back-to-top {
 	text-align: center;
 }
 
-.ex-header-about-us {
-	padding-top: 8rem;
-	padding-bottom: 5rem;
-	background-color: #f7fafd;
-}
-
 .ex-basic-1 {
 	padding-top: 2rem;
 	padding-bottom: 0.875rem;
@@ -1619,11 +1613,6 @@ a:hover.back-to-top {
 	.ex-header {
 		padding-top: 11rem;
 		padding-bottom: 9rem;
-	}
-
-	.ex-header-about-us {
-		padding-top: 8rem;
-		padding-bottom: 3rem;
 	}
 
 	.ex-basic-2 .text-container.dark {
@@ -2546,8 +2535,6 @@ a:hover.back-to-top {
 	margin-left: 1rem;
 	margin-top: 1.5%;
 }
-
-@import url(https://fonts.googleapis.com/css?family=Khula:700);
 
 .hidden {
   opacity:0;
