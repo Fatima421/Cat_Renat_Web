@@ -270,8 +270,13 @@
 		$(this).blur();
 	});
 
-    // function([string1, string2],target id,[color1,color2])    
- consoleText(['Termes i Condicions'], 'text',['#50b9e8']);
+if($(".bodyPage").attr('id')=="aboutUs"){
+    consoleText(['About us'], 'text',['#50b9e8']);
+
+} else if($(".bodyPage").attr('id')=="termsAndConditions"){
+    consoleText(['Termes i Condicions'], 'text',['#50b9e8']);
+} else if($(".bodyPage").attr('id')=="termsAndConditions_en"){
+    consoleText(['Terms and Conditions'], 'text',['#50b9e8']);
 
  function consoleText(words, id, colors) {
    if (colors === undefined) colors = ['#fff'];
