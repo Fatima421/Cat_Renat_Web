@@ -271,12 +271,17 @@
 	});
 
 if($(".bodyPage").attr('id')=="aboutUs"){
-    consoleText(['About us'], 'text',['#50b9e8']);
+    consoleText(['Sobre Nosaltres'], 'text',['#50b9e8']);
 
 } else if($(".bodyPage").attr('id')=="termsAndConditions"){
     consoleText(['Termes i Condicions'], 'text',['#50b9e8']);
+
 } else if($(".bodyPage").attr('id')=="termsAndConditions_en"){
-    consoleText(['Terms and Conditions'], 'text',['#50b9e8']);
+    consoleText(['Terms & Conditions'], 'text',['#50b9e8']);
+
+} else if($(".bodyPage").attr('id')=="aboutUs_en"){
+    consoleText(['About Us'], 'text',['#50b9e8']);
+}
 
  function consoleText(words, id, colors) {
    if (colors === undefined) colors = ['#fff'];
