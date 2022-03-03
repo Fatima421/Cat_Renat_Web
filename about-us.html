@@ -34,7 +34,7 @@
     <link rel="icon" href="images/favicon.svg">
 </head>
 
-<body data-spy="scroll" data-target=".fixed-top">
+<body data-spy="scroll" class="bodyPage" data-target=".fixed-top" id="aboutUs">
 
     <!-- Preloader -->
     <div class="spinner-wrapper">
@@ -82,7 +82,7 @@
                         <a class="nav-link dropdown-toggle page-scroll" id="navbarDropdown" role="button"
                             aria-haspopup="true" aria-expanded="false">EXTRA</a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="article-details.html"><span class="item-text">SOBRE
+                            <a class="dropdown-item" href="about-us.html"><span class="item-text">SOBRE
                                     NOSALTRES</span></a>
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item" href="terms-conditions.html"><span class="item-text">TERMES I
@@ -90,6 +90,16 @@
                         </div>
                     </li>
                     <!-- end of dropdown menu -->
+                    <!-- Dropdown Menu -->          
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle page-scroll" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">IDIOMA</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="about-us.html"><span class="item-text">CATALÀ</span></a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="about-us_en.html"><span class="item-text">ANGLÈS</span></a>
+                    </div>
+                </li>
+                <!-- end of dropdown menu -->
 
                 </ul>
                 <span class="nav-item">
@@ -101,20 +111,19 @@
     <!-- end of navigation -->
 
 
+
     <!-- Header -->
     <header id="header" class="ex-header">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class='console-container'>
-                        <span id='text2'>Sobre Nosaltres</span>
-                        <div class='console-underscore' id='console'>&#95;</div>
-                    </div>
+                    <div class='console-container'><span id='text'></span><div class='console-underscore' id='console'>&#95;</div></div>
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
         </div> <!-- end of container -->
     </header> <!-- end of ex-header -->
     <!-- end of header -->
+
 
 
     <!-- Breadcrumbs -->
@@ -134,7 +143,6 @@
 
 
     <!-- Privacy Content -->
-
     <div class="container">
         <div class="section-content">
             <div class="row">
@@ -246,15 +254,10 @@
                                             <h3>La idea ·</h3>
                                             <h4>23/10/2021</h4>
                                         </div>
-                                        <p>Tot va començar amb una pluja d'idees sobre el que voldríem crear i
-                                            presentar.
-                                            N'hi va haver moltes de desbaratades al principi i moltes van acabar
-                                            descartades,
-                                            però totes tenien un concepte en comú, volíem ajudar a difondre l'ús del
-                                            català.
-                                            Després de dies i dies de reflexió vam acabar decidint-nos per fer una
-                                            aplicació sobre diferents categories d'entreteniment. Una categoria dedicada
-                                            a la música, un altre a audiovisuals, un altre als jocs i un altre als
+                                        <p>Es va realitzar una pluja d'idees sobre el que voldríem crear i presentar. N'hi va haver moltes de desbaratades al
+                                            principi i moltes van acabar descartades, però totes tenien un concepte en comú, volíem ajudar a difondre l'ús del
+                                            català. Després de dies i dies de reflexió vam acabar decidint-nos per fer una aplicació sobre diferents categories
+                                            d'entreteniment. Una categoria dedicada a la música, un altre a audiovisuals, un altre als jocs i l'última als
                                             llibres, per a tota mena de gent i per a diferents gustos.
                                         </p>
                                     </div>
@@ -346,7 +349,7 @@
                                     codi identificatiu i la branca corresponent al GitHub (un servei d'allotjament de
                                     repositoris per poder compartir i guardar treballs). Ens hem anat dividint les
                                     tasques a mesura que avançàvem, revisant les branques i el treball dels companys un
-                                    cop finalitzades, ajuntant tot a poc a poc com peces d'un puzle.</p>
+                                    cop finalitzades, ajuntant tot a poc a poc com peces d'un trencaclosques.</p>
                             </div> <!-- end of col -->
                             <div class="col-md-6">
                                 <div class="image-container-small">
@@ -365,13 +368,13 @@
                                         <div class="cell">
                                             <img class="image-margin-counter" src="images/tasks.png" width="50px"
                                                 height="50px">
-                                            <div class="counter-value number-count" data-count="65">1</div>
+                                            <div class="counter-value number-count" data-count="94">1</div>
                                             <p class="counter-info">Tasques fetes</p>
                                         </div>
                                         <div class="cell">
                                             <img class="image-margin-counter-commit" src="images/commit.png"
                                                 width="60px" height="60px">
-                                            <div class="counter-value number-count" data-count="282">1</div>
+                                            <div class="counter-value number-count" data-count="392">1</div>
                                             <p class="counter-info">Commits</p>
                                         </div>
                                         <div class="cell">
@@ -457,7 +460,7 @@
                     <div class="footer-col third">
                         <h5>Altres enllaços</h5>
                         <ul class="list-unstyled li-space-lg p-small">
-                            <li><a href="article-details.html">Sobre nosaltres</a></li>
+                            <li><a href="about-us.html">Sobre nosaltres</a></li>
                             <li><a href="terms-conditions.html">Termes i condicions</a></li>
                         </ul>
                     </div> <!-- end of footer-col -->
